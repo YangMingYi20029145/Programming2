@@ -29,4 +29,7 @@ static 宣告 main 為靜態(類別)方法
 void : main 在結束時不用回傳任何型別的值
 String[]args: 程式執行時要傳給 main 的引數
 ```
-### 
+### 編輯程式 1-14
+```
+編輯好___.java號程式碼後，使用 javac.exe 將 .java檔 編譯成 .class檔 ， .class 檔是 JVM的 執行檔
+```
