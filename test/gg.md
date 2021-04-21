@@ -108,3 +108,9 @@ a = 7
 ```
 看課本
 ```
+### 基本資料型別與參考資料型別 2-31
+```
+Global(全域資料)
+Stack(堆疊) 基本資料型別的變數皆存放在 Stack 記憶空間， E: char、byte、short、int、long、float、double、boolean
+Heap(堆積) 存放參考資料型別的物件實體
+```
