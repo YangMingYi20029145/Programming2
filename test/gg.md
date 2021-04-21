@@ -23,5 +23,9 @@ javap.exe : .class檔 反直譯成原始檔 .java檔
 ```
 程式檔名 and 類別名稱 要相同 ， 英文大小寫也要一致
 java 中英文大小寫 ==> 不相同
-
+用關鍵字 class 宣告一個...類別， class 前+ public ==> 類別存取沒限制
+定義 main() : 程式開始執行的起點
+static 宣告 main 為靜態(類別)方法
+void : main 在結束時不用回傳任何型別的值
+String[]args: 程式執行時要傳給 main 的引數
 ```
