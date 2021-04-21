@@ -114,7 +114,7 @@ Global(全域資料)
 Stack(堆疊) 基本資料型別的變數皆存放在 Stack 記憶空間， E: char、byte、short、int、long、float、double、boolean
 Heap(堆積) 存放參考資料型別的物件實體
 ```
-### 輸出
+### 輸出 2-35
 ```
 https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/322652/
 ```
@@ -131,4 +131,19 @@ https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/322652/
 %a 轉換成十六進制浮點數
 %g 轉換成浮點數(較短)
 %n 換行
+```
+### 選擇敘述
+```
+if :單向式
+if...else : 雙向式
+if...else if...else : 多重判斷式
+if 選哲結構 : 巢狀式 
+switch (.....){     多重選擇敘述的使用
+  case 值 1:
+    .........
+    break;
+  case 值 2:
+    .........
+    break;
+}
 ```
