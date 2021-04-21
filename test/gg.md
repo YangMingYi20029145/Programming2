@@ -16,6 +16,12 @@
 ```
 javac.exe : java 的編輯程式 (.java檔 ==> .class檔)
 java.exe :  java 的直譯程式(器)(.class檔)
-javadoc.exe : 成員和註解 產生 java api 文件
+javadoc.exe : 程式中的成員和註解 產生 java api 文件
 javap.exe : .class檔 反直譯成原始檔 .java檔
+```
+### 編輯程式碼
+```
+程式檔名 and 類別名稱 要相同 ， 英文大小寫也要一致
+java 中英文大小寫 ==> 不相同
+
 ```
