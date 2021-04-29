@@ -82,6 +82,11 @@ public class ex2{
      }
 }
 ```
+```
+$javac ex2.java
+$java -Xmx128M -Xms16M ex2
+144
+```
 
 ### iterative方法
 ```
