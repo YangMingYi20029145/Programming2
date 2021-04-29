@@ -101,23 +101,48 @@ https://magiclen.org/recursive-to-iterative/
 https://emn178.pixnet.net/blog/post/91987861
 https://gist.github.com/meghakrishnamurthy/331bd9addab3dbb1b6a23802b1c6845e
 https://dev.to/khalilsaboor/fibonacci-recursion-vs-iteration--474l
+https://www.geeksforgeeks.org/different-ways-to-print-fibonacci-series-in-java/
 ```
 ```
- public static int fibonacciLoop(int nthNumber) {
-        //use loop
-        int previouspreviousNumber, previousNumber = 0, currentNumber = 1;
-
-        for (int i = 1; i < nthNumber ; i++) {
-
-            previouspreviousNumber = previousNumber;
-
-            previousNumber = currentNumber;
-
-            currentNumber = previouspreviousNumber + previousNumber;
-
+// Java program for the above approach
+  
+public class GFG {
+  
+    // Function to print N Fibonacci Number
+    static void Fibonacci(int N)
+    {
+        int num1 = 0, num2 = 1;
+  
+        int counter = 0;
+  
+        // Iterate till counter is N
+        while (counter < N) {
+  
+            // Print the number
+            System.out.print(num1 + " ");
+  
+            // Swap
+            int num3 = num2 + num1;
+            num1 = num2;
+            num2 = num3;
+            counter = counter + 1;
         }
-        return currentNumber;
     }
+  
+    // Driver Code
+    public static void main(String args[])
+    {
+        // Given Number N
+        int N = 13;
+  
+        // Function Call
+        Fibonacci(N);
+    }
+}
+
+```
+```
+0 1 1 2 3 5 8 13 21 34 55 89 144 
 ```
 ### ???
 ```
