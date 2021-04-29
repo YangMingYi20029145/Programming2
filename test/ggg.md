@@ -1,6 +1,6 @@
 ### 傳值呼叫 call by value
 ```
-方法中的虛引數若宣告為基本資料型別，如 chat、byte、short、int、long、float、double、boolean 八種型別邊數，就表示該方法的引數傳遞方式是採傳值呼叫。 
+方法中的虛引數若宣告為基本資料型別，如 chat、byte、short、int、long、float、double、boolean 八種型別邊數，表示此方法的引數傳遞方式是採傳值呼叫。 
 ```
 ```
 public class CallByVal{
