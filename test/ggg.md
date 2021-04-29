@@ -83,8 +83,6 @@ public class ex2{
 }
 ```
 ```
-$javac ex2.java
-$java -Xmx128M -Xms16M ex2
 144
 ```
 
@@ -122,7 +120,5 @@ public class Fibonacci {
 }
 ```
 ```
-$javac Fibonacci.java
-$java -Xmx128M -Xms16M Fibonacci
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181
 ```
