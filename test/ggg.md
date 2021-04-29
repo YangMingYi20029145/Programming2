@@ -66,7 +66,21 @@ public class CallByRef{
 (1)請使用靜態遞迴方法算出費氏數列。
 (2)請使用 iterative方法算出費氏數列。
 ```
-#### 答案
+### 遞迴方法
+
+```
+public class ex2{
+    static int f(int n){
+        if(n==0 || n==1) return n;
+        else return f(n-1)+f(n-2);
+    }
+     public static void main(String []args){
+        System.out.println(f(12));
+     }
+}
+```
+
+### iterative方法
 ```
 
 ```
