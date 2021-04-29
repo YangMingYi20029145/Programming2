@@ -28,9 +28,9 @@ public class CallByVal{
 }
 public class CallByRef{
   public static void main(String[] args){
-    Obj obj = new Obj
+    Obj obj = new Obj;
       system.out.println("參考呼叫前\t a =" + obj.a + "\t b =" + obj.b);
-    byRef(obj)
+    byRef(obj);
       system.out.println("參考呼叫後\t a =" + obj.a + "\t b =" + obj.b);
    }
    static void byRef(Obj p){
@@ -45,7 +45,7 @@ public class CallByRef{
 ```
 1.void methed(){}
 2.int methed(){}    //不能多載:雖然傳回值不同但引數個數相同
-3.void methed(int a){}    //成功載入:比第一行的方法多一個引數
+3.void methed(int a){}    //成功載入:比第1行的方法多一個引數
 4.void methed(int b){}    //不能載入:引數名稱不同,但和第3行型別和個數相同
 5.void methed(string s){} //成功載入:雖然和第3行引數個數相同但型別不同
 6.void methed(int a, string s){}    //成功載入:引數個數和型別都不相同
