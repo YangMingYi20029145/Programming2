@@ -1,4 +1,7 @@
-### call by value
+### 傳值呼叫 call by value
+```
+方法中的虛引數如果宣告為基本資料型別
+```
 ```
 public class CallByVal{
   public static void main(String[] args){
