@@ -43,13 +43,13 @@ public class CallByRef{
  ```
 ### 方法多載
 ```
-1.void methed(){}
-2.int methed(){}    //不能多載:雖然傳回值不同但引數個數相同
-3.void methed(int a){}    //成功載入:比第1行的方法多一個引數
-4.void methed(int b){}    //不能載入:引數名稱不同,但和第3行型別和個數相同
-5.void methed(string s){} //成功載入:雖然和第3行引數個數相同但型別不同
-6.void methed(int a, string s){}    //成功載入:引數個數和型別都不相同
-7.void methed(string s, int a){}    //成功載入:和第6行引數個數和型別相同但順序不同
+01 void methed(){}
+02 int methed(){}    //不能多載:雖然傳回值不同但引數個數相同
+03 void methed(int a){}    //成功載入:比第1行的方法多一個引數
+04 void methed(int b){}    //不能載入:引數名稱不同,但和第3行型別和個數相同
+05 void methed(string s){} //成功載入:雖然和第3行引數個數相同但型別不同
+06 void methed(int a, string s){}    //成功載入:引數個數和型別都不相同
+07 void methed(string s, int a){}    //成功載入:和第6行引數個數和型別相同但順序不同
 ```
 ### 費氏數列:遞迴方法 vs iterative ==> 再算　時間複雜度
 ```
