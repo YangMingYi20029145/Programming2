@@ -1,6 +1,6 @@
 ### 傳值呼叫 call by value
 ```
-方法中的虛引數如果宣告為基本資料型別
+方法中的虛引數若宣告為基本資料型別，如 chat、byte、short、int、long、float、double、boolean 八種型別邊數，就表示該方法的引數傳遞方式是採傳值呼叫。 
 ```
 ```
 public class CallByVal{
@@ -21,6 +21,9 @@ public class CallByVal{
  ```
  
  ### call by reference
+ ```
+ 方法中的虛引數若宣告為參考資料型別，如陣列、物件...等，表示此方法的引數傳遞方式是採參考呼叫。 
+ ```
  ```
  class Obj{
     int a, b;
@@ -45,6 +48,9 @@ public class CallByRef{
   }
  ```
 ### 方法多載
+```
+同一類別中，允許方法使用相同的名稱，但是後面所接的引數串列必須是資料型別不同、個數或順序不同。
+```
 ```
 01 void methed(){}
 02 int methed(){}    //不能多載:雖然傳回值不同但引數個數相同
